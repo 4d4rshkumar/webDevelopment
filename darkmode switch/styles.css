@@ -1,0 +1,22 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background 1s ease;
+    
+}
+.modes{
+    height: 100vh;
+    background-color:rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+svg{
+    cursor: pointer;
+}
+.disabled{
+    display: none;
+}
